@@ -14,7 +14,6 @@
         public void Add(T item)
         {
             var node = new SingleNode<T>(item);
-
             if (isEmpty)
             {
                 _first = node;
